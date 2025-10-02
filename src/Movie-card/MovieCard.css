@@ -1,0 +1,26 @@
+.movie-card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.movie-img {
+  height: 350px;
+  object-fit: cover;
+}
+.font-size{
+  font-size: 1.5rem;
+  color: rgb(255, 87, 146);
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.font-size:hover {
+  color: rgb(255, 65, 132);
+  transform: scale(1.1);
+}
